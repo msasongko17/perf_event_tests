@@ -247,7 +247,7 @@ skip_writes:
 
 	/* setup for an execution breakpoint */
 	pe.config=0;
-	pe.bp_type=HW_BREAKPOINT_R;
+	pe.bp_type=HW_BREAKPOINT_RW;
 	pe.bp_addr=(long)&test_variable;
 	pe.bp_len=HW_BREAKPOINT_LEN_4;
 
